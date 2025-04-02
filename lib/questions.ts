@@ -881,6 +881,10 @@ export function getQuestions(topic: string, level: string): Question[] {
   return smartphoneEasyQuestions
 }
 
+// Verificar a função getQuestions para confirmar que temos perguntas suficientes
+
+// Não precisamos modificar esta função, pois já temos mais de 15 perguntas em cada categoria:
+
 // E estamos selecionando 20 perguntas aleatórias no arquivo quiz/page.tsx:
 // const selectedQuestions = quizQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
 
