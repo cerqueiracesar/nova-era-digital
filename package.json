@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "resend": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
   }
 }
