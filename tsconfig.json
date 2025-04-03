@@ -17,6 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "paths": {
+      "@/*": ["./node_modules/next/dist/client*"],
+      "@/components/*": ["./node_modules/next/dist/client/components/*"]
+    },
     "plugins": [
       {
         "name": "next"
